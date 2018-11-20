@@ -1,9 +1,17 @@
+<<<<<<< HEAD
  var lineNumber = 0;
 function takeANumber(name,line){
 
   var script = `Welcome, ${line}. You are number ${(name.length+1)} in line.`;
   name.push(line);
   ++lineNumber;
+=======
+var lineNumber = 0
+function takeANumber(lineNumber,name){
+++lineNumber;
+  var script = `Welcome, ${name}. You are number ${lineNumber} in line.`;
+  katzDeli.push(name);
+>>>>>>> d3a65a4e0782899fd8194ac6ff74ec8c4833cac4
   return script
 
 }
@@ -13,6 +21,7 @@ function nowServing(katzDeliLine){
   }
   else {
 
+<<<<<<< HEAD
     return `Currently serving ${katzDeliLine.shift()}.`
 }
 }
@@ -38,4 +47,11 @@ else {
 }
 return speak;
   }
+=======
+    return `${name}`
+}
+}
+function currentLine(){
+
+>>>>>>> d3a65a4e0782899fd8194ac6ff74ec8c4833cac4
 }
